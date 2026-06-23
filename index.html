@@ -1140,40 +1140,7 @@ footer { background: var(--marrom); padding: 64px 8vw 28px; }
 <!-- ═══ NAV ═══ -->
 <nav id="nav" role="navigation" aria-label="Navegação principal">
   <a href="#inicio" class="nav-logo" aria-label="Athena Eventos — Página inicial">
-    <!-- Medalhão logo fiel ao arquivo PDF -->
-    <!-- Nav medallion: dupla borda, ramos do topo descendo, laço inferior, monograma A -->
-    <svg class="nav-logo-medallion" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <circle cx="60" cy="60" r="56" fill="none" stroke="#A07840" stroke-width="2.2"/>
-      <circle cx="60" cy="60" r="50" fill="none" stroke="#A07840" stroke-width="0.9"/>
-      <!-- Ramo DIREITO: topo (292°) → base (90°), rot=angle+90 -->
-      <g fill="none" stroke="#A07840" stroke-width="1" stroke-linecap="round">
-        <g transform="translate(76.5,19.2) rotate(22)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(90.6,28.4) rotate(44)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(100.5,42.8) rotate(67)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(104,60) rotate(90)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(100.8,76.5) rotate(112)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(91.1,91.1) rotate(135)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(77.2,100.5) rotate(157)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(60,104) rotate(180)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-      </g>
-      <!-- Ramo ESQUERDO: topo (248°) → base (90°), rot=angle+90 -->
-      <g fill="none" stroke="#A07840" stroke-width="1" stroke-linecap="round">
-        <g transform="translate(43.5,19.2) rotate(338)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(29.4,28.4) rotate(316)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(19.5,42.8) rotate(293)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(16,60) rotate(270)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(19.2,76.5) rotate(248)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(28.9,91.1) rotate(225)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(42.8,100.5) rotate(203)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-        <g transform="translate(60,104) rotate(180)"><ellipse cx="0" cy="0" rx="2" ry="5.5"/><line x1="0" y1="-5.5" x2="0" y2="5.5" stroke-width="0.5"/></g>
-      </g>
-      <!-- Laço inferior -->
-      <path d="M53 110 Q60 106 67 110" fill="none" stroke="#A07840" stroke-width="1.4" stroke-linecap="round"/>
-      <path d="M52 113 Q60 119 68 113" fill="none" stroke="#A07840" stroke-width="1.4" stroke-linecap="round"/>
-      <circle cx="60" cy="111" r="2.2" fill="#A07840"/>
-      <!-- Monograma A -->
-      <text x="60" y="76" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="52" font-weight="600" fill="#A07840">A</text>
-    </svg>
+    <img class="nav-logo-medallion" src="images/logo-athena.png" alt="" aria-hidden="true">
     <div class="nav-logo-text">
       <span class="nav-logo-name">Athena</span>
       <span class="nav-logo-sub">Eventos Corporativos</span>
@@ -1240,80 +1207,7 @@ footer { background: var(--marrom); padding: 64px 8vw 28px; }
     <div class="hero-right-bg"></div>
     <div class="hero-rotate-ring"></div>
     <div class="hero-logo-container">
-      <!-- Logo hero: medalhão fiel ao SVG original (dupla borda, ramos do topo ao laço, monograma A) -->
-      <svg viewBox="0 0 500 430" xmlns="http://www.w3.org/2000/svg" style="width:min(400px,85%);height:auto;display:block;" role="img" aria-label="Logo Athena Eventos">
-        <title>Athena Eventos — Buffet Corporativo Rio de Janeiro desde 2002</title>
-
-        <!-- Dupla borda circular -->
-        <circle cx="250" cy="198" r="156" fill="none" stroke="#A07840" stroke-width="2.5"/>
-        <circle cx="250" cy="198" r="145" fill="none" stroke="#A07840" stroke-width="1.2"/>
-
-        <!-- Ramo DIREITO: parte do topo (276°) desce em sentido horário até a base (92°) -->
-        <!-- Folhas: posição tangencial ao círculo (rot = angle+90) — r=128, cx=250, cy=198 -->
-        <g fill="none" stroke="#A07840" stroke-width="1.15" stroke-linecap="round">
-          <g transform="translate(263.4,70.8) rotate(6)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(297.9,79.1) rotate(22)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(328.8,97.1) rotate(38)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(353.6,122.7) rotate(54)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(370.3,154.2) rotate(70)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(377.7,189.1) rotate(86)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(375.2,224.6) rotate(102)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(363.0,258.1) rotate(118)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(342.1,287.0) rotate(134)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(314.0,308.8) rotate(150)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(281.0,322.2) rotate(166)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(245.5,326.0) rotate(182)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-        </g>
-
-        <!-- Ramo ESQUERDO: parte do topo (264°) desce em sentido anti-horário até a base (88°) -->
-        <g fill="none" stroke="#A07840" stroke-width="1.15" stroke-linecap="round">
-          <g transform="translate(236.6,70.8) rotate(354)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(202.1,79.1) rotate(338)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(171.2,97.1) rotate(322)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(146.4,122.7) rotate(306)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(129.7,154.2) rotate(290)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(122.3,189.1) rotate(274)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(124.8,224.6) rotate(258)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(137.0,258.1) rotate(242)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(157.9,287.0) rotate(226)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(186.0,308.8) rotate(210)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(219.0,322.2) rotate(194)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-          <g transform="translate(254.5,326.0) rotate(178)"><ellipse cx="0" cy="0" rx="3.2" ry="8.5"/><line x1="0" y1="-8.5" x2="0" y2="8.5" stroke-width="0.55"/></g>
-        </g>
-
-        <!-- Laço/nó inferior onde os dois ramos se encontram -->
-        <path d="M234 336 Q250 329 266 336" fill="none" stroke="#A07840" stroke-width="1.8" stroke-linecap="round"/>
-        <path d="M232 341 Q250 351 268 341" fill="none" stroke="#A07840" stroke-width="1.8" stroke-linecap="round"/>
-        <circle cx="250" cy="339" r="3.5" fill="#A07840"/>
-
-        <!-- Monograma A central -->
-        <text x="250" y="252"
-          text-anchor="middle"
-          font-family="Cormorant Garamond, Georgia, serif"
-          font-size="138" font-weight="600"
-          fill="#A07840" letter-spacing="-2">A</text>
-
-        <!-- ATHENA -->
-        <text x="250" y="352"
-          text-anchor="middle"
-          font-family="Cormorant Garamond, Georgia, serif"
-          font-size="50" font-weight="600"
-          fill="#4A2E1A" letter-spacing="9">ATHENA</text>
-
-        <!-- EVENTOS -->
-        <text x="250" y="386"
-          text-anchor="middle"
-          font-family="Raleway, Arial, sans-serif"
-          font-size="21" font-weight="600"
-          fill="#A07840" letter-spacing="11">EVENTOS</text>
-
-        <!-- DESDE 2002 -->
-        <text x="250" y="414"
-          text-anchor="middle"
-          font-family="Raleway, Arial, sans-serif"
-          font-size="13" font-weight="500"
-          fill="#7A5230" letter-spacing="7">DESDE  2002</text>
-      </svg>
+      <img src="images/logo-athena.png" alt="Athena Eventos — Buffet Corporativo Rio de Janeiro desde 2002" style="width:min(400px,85%);height:auto;display:block;margin:0 auto;">
     </div>
     <div class="hero-scroll">
       <div class="hero-scroll-line"></div>
